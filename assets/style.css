@@ -1,4 +1,27 @@
 .container{
-    background-color: #f8f9fa!important;
+    background-color: white !important;
     min-width: 100%;
+    padding: 0;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.row{
+    margin: 0;
+}
+
+.content-container{
+    min-width: 100%;
+    padding: 0;
+}
+
+.header{
+    height: 60px;
+}
+.main-background{
+    min-width: 100%;
+    min-height: calc(100vh - 60px);
+    background-image: url(images/background.png);
 }
