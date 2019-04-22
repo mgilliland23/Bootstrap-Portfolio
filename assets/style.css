@@ -9,7 +9,7 @@
 
 .navbar-brand{
     font-family: "Georgia", Times, Times New Roman, serif;
-    padding: 0 20px;
+    padding: 0 40px;
     height: 60px;
     line-height: 60px;
     font-size: 30px;
@@ -19,11 +19,16 @@
 }
 
 #navbarNav{
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 .bg-light {
     background-color: white !important;
+}
+
+.navbar-collapse{
+    z-index: 1000;
+    background: white;
 }
 
 .row{
@@ -32,12 +37,37 @@
 
 .content-container{
     margin-top: 40px;
+    padding: 20px 40px;
     min-width: 100%;
     min-height: calc( 100vh - 200px);
-    padding: 0;
     border: solid 1px #dddddd;
     background-color: white;
+    overflow: hidden;
 }
+
+.content-container img{
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+/* Style the heading inside the container */
+.content-container h2{
+    font-family: "Georgia", Times, Times New Roman, serif;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 2px #dddddd;
+    color: #4aaaa5;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /* Style all paraghraphs within the content container */
+  .content-container p{
+    line-height: 1.75em;
+    color: #777777;
+  } 
+
+
 
 .header{
     height: 60px;
