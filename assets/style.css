@@ -1,13 +1,14 @@
-.container{
+.container {
     background-color: white !important;
     min-width: 100%;
     padding: 0;
 }
-.navbar{
+
+.navbar {
     padding: 0;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: "Georgia", Times, Times New Roman, serif;
     padding: 0 40px;
     height: 60px;
@@ -18,7 +19,7 @@
     color: white !important;
 }
 
-#navbarNav{
+#navbarNav {
     padding: 0 40px;
 }
 
@@ -26,16 +27,16 @@
     background-color: white !important;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     z-index: 1000;
     background: white;
 }
 
-.row{
+.row {
     margin: 0;
 }
 
-.content-container{
+.content-container {
     margin: 40px 0;
     padding: 20px 40px;
     min-width: 100%;
@@ -45,13 +46,14 @@
     overflow: hidden;
 }
 
-#profileImg{
+#profileImg {
     float: left;
     padding: 0 20px 0 0;
 }
 
 /* Style the heading inside the container */
-.content-container h2{
+
+.content-container h2 {
     font-family: "Georgia", Times, Times New Roman, serif;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -59,21 +61,20 @@
     color: #4aaaa5;
     font-size: 1.5em;
     font-weight: bold;
-  }
-  
-  /* Style all paraghraphs within the content container */
-  .content-container p{
+}
+
+/* Style all paraghraphs within the content container */
+
+.content-container p {
     line-height: 1.75em;
     color: #777777;
-  } 
+}
 
-
-
-.header{
+.header {
     height: 60px;
 }
 
-.main-background{
+.main-background {
     min-width: 100%;
     min-height: calc(100vh - 60px);
     background-image: url(images/background.png);
@@ -81,48 +82,48 @@
 
 /* Style the project cards for the portfolio page*/
 
-.content-container ul{
+.content-container ul {
     list-style-type: none;
     padding-top: 20px;
-    
-  }
-  
-  .content-container li{
+}
+
+.content-container li {
     float: left;
-  }
-  
-  
-  .projectCard{
+}
+
+.projectCard {
     height: 150px;
     width: 200px;
     margin-right: 50px;
     margin-bottom: 50px;
     position: relative;
-    
-  }
-  
-  /*Project Image */
-  .projectCard img{
+}
+
+/*Project Image */
+
+.projectCard img {
     height: 150px;
     width: 200px;
     position: absolute;
     top: 0;
     left: 0;
-  }
-  
-  /* Change opactiy of the project image on hover */
-  .projectCard:hover img{
+}
+
+/* Change opactiy of the project image on hover */
+
+.projectCard:hover img {
     opacity: .6;
-    
-  }
-  
-  li a{
+}
+
+li a {
     text-decoration: none;
-  }
-  
-  /* Project Name */
-  /* Overlap the project name over the project image*/
-  .projectName{
+}
+
+/* Project Name */
+
+/* Overlap the project name over the project image*/
+
+.projectName {
     height: 30px;
     width: 200px;
     background-color: #4aaaa5;
@@ -133,9 +134,10 @@
     padding: 0 !important;
     bottom: 10px;
     left: 0;
-  }
+}
 
 /* Style inputs for the contact form */
+
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     display: block;
@@ -145,22 +147,37 @@ input[type=text], input[type=email], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  label{
+}
+
+label {
     color: #777777;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
     border: none;
     margin-bottom: 40px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     opacity: .8;
-  }
-  
+}
+
+.footer {
+    text-align: center;
+    background-color: #666666;
+    text-align: center;
+    border-top: solid 3px #4aaaa5;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.footer .container{
+    background-color: #666666 !important;
+    color: white;
+
+}
