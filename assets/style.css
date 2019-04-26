@@ -16,7 +16,7 @@
     line-height: 60px;
     font-size: 30px;
     margin: 0;
-    background-color: #4aaaa5;
+    background-color: #8FBCBB;
     color: white !important;
 }
 
@@ -59,7 +59,7 @@
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: solid 2px #dddddd;
-    color: #4aaaa5;
+    color: #8FBCBB;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -127,7 +127,7 @@ li a {
 .projectName {
     height: 30px;
     width: 200px;
-    background-color: #4aaaa5;
+    background-color: #8FBCBB;
     color: white !important;
     line-height: 30px !important;
     text-align: center;
@@ -155,7 +155,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: #8FBCBB;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -171,7 +171,7 @@ input[type=submit]:hover {
     text-align: center;
     background-color: #666666;
     text-align: center;
-    border-top: solid 3px #4aaaa5;
+    border-top: solid 3px #8FBCBB;
     width: 100%;
     height: 40px;
     line-height: 40px;
@@ -185,14 +185,14 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 990px){
     #navbarNav{
-        border: solid 1px #4aaaa5;
+        border: solid 1px #8FBCBB;
         border-top: none;
     }
 }
 
 @media only screen and (max-width: 640px){
     #navbarNav{
-        border: solid 1px #4aaaa5;
+        border: solid 1px #8FBCBB;
         border-top: none;
     }
 
