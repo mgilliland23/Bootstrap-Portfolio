@@ -189,3 +189,16 @@ input[type=submit]:hover {
         border-top: none;
     }
 }
+
+@media only screen and (max-width: 640px){
+    #navbarNav{
+        border: solid 1px #4aaaa5;
+        border-top: none;
+    }
+
+    #profileImg{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
