@@ -197,8 +197,15 @@ input[type=submit]:hover {
     }
 
     #profileImg{
+        display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
+        float: none;
+        width: 100%;
+    }
+
+    .aboutMe{
+        float: left;
     }
 }
