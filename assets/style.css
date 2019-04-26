@@ -209,4 +209,8 @@ input[type=submit]:hover {
     .aboutMe{
         float: left;
     }
+
+    .col-sm-12{
+        padding-left: 0;
+    }
 }
