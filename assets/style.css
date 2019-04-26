@@ -6,6 +6,7 @@
 
 .navbar {
     padding: 0;
+    border-bottom: solid 1px #dddddd;
 }
 
 .navbar-brand {
@@ -180,4 +181,10 @@ input[type=submit]:hover {
     background-color: #666666 !important;
     color: white;
 
+}
+
+@media only screen and (max-width: 990px){
+    #navbarNav{
+
+    }
 }
