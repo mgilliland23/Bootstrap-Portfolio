@@ -185,6 +185,7 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 990px){
     #navbarNav{
-
+        border: solid 1px #4aaaa5;
+        border-top: none;
     }
 }
