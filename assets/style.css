@@ -202,6 +202,7 @@ input[type=submit]:hover {
         margin-right: auto;
         margin-bottom: 20px;
         float: none;
+        padding-right: 0;
     }
 
     .aboutMe{
